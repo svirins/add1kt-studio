@@ -5,14 +5,15 @@
   },
   "api": {
     "projectId": "ro6en9ct",
-    "dataset": "production"
+    "dataset": "development"
   },
   "plugins": [
     "@sanity/base",
     "@sanity/default-layout",
     "@sanity/default-login",
     "@sanity/desk-tool",
-    "asset-source-pexels"
+    "asset-source-pexels",
+    "vercel-deploy"
   ],
   "env": {
     "development": {

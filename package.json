@@ -5,7 +5,7 @@
   "description": "",
   "main": "package.json",
   "author": "Dzmitry Sviryn <zvirinz@outlook.com>",
-  "license": "UNLICENSED",
+  "license": "GPL",
   "scripts": {
     "start": "sanity start",
     "build": "sanity build"
@@ -27,6 +27,7 @@
     "react-dom": "^17.0",
     "sanity-plugin-asset-source-pexels": "^0.0.2",
     "sanity-plugin-transifex": "^1.1.2",
+    "sanity-plugin-vercel-deploy": "^2.1.6",
     "styled-components": "^5.2.0"
   }
 }
