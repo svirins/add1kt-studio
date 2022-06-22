@@ -370,6 +370,6 @@ export default createSchema({
     tagSchema,
     pageSchema,
     localeString,
-    localePortableText
+    localePortableText,
   ])
 });

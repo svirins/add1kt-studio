@@ -13,7 +13,8 @@
     "@sanity/default-login",
     "@sanity/desk-tool",
     "asset-source-pexels",
-    "vercel-deploy"
+    "vercel-deploy",
+    "@sanity/language-filter"
   ],
   "env": {
     "development": {
@@ -26,6 +27,10 @@
     {
       "name": "part:@sanity/base/schema",
       "path": "./schemas/schema"
+    },
+    {
+      "name": "part:@sanity/language-filter/config",
+      "path": "./parts/languageFilterConfig.js"
     }
   ]
 }
