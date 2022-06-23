@@ -4,7 +4,7 @@ export default {
     {id: 'pl', title: 'Polish'},
   ],
   defaultLanguages: ['ru'],
-  documentTypes: ['post'],
+  documentTypes: ['post', 'tag', 'author', 'page'],
   filterField: (enclosingType, field, selectedLanguageIds) =>
     !enclosingType.name.startsWith('locale') || selectedLanguageIds.includes(field.name),
 }
